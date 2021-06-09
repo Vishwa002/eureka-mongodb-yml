@@ -1,0 +1,11 @@
+Spring:
+  data:
+    mongodb:
+      host: localhost
+      database: cab
+      port: 27017
+      
+      
+logging:
+  level:
+    '[org.springframework.data.mongodb]': debug      
